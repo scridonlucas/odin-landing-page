@@ -107,7 +107,36 @@ body {
   color: #1F2937;
   display: flex;
   justify-content: center;
-  margin: 0;
+  margin:0;
   padding: 26px;
 
+}
+
+img[alt="artist"] {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  border: 5px solid #3882F6;
+}
+
+.chenar {
+  max-width: 200px;
+  text-align: center;
+}
+
+.images {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  gap: 52px;
+  height: 350px;
+}
+
+.middle {
+  display: flex;
+  flex-direction: column;
+}
+
+.text {
+  color: #1F2937;
 }
