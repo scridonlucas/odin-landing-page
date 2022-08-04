@@ -140,3 +140,19 @@ img[alt="artist"] {
 .text {
   color: #1F2937;
 }
+
+.quote {
+  background-color: #e5e7eb;
+}
+
+.pquote {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  align-content: center;
+  font-style: italic;
+  font-size: 25px;
+  color:#1F2937;
+  height: 350px;
+}
