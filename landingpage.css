@@ -33,7 +33,8 @@ body {
   }
 
   .header,
-  .under {
+  .under,
+  .footer {
     background-color: #1F2937;
     display: flex;
   }
@@ -44,6 +45,7 @@ body {
     border-radius: 8px;
     font-weight: 100;
     font-size: 16px;
+    font-weight: bold;
     height: 40px;
     width: 110px;
     display: flex;
@@ -98,7 +100,7 @@ body {
 }
 
 .undertitle {
-  margin: 0;
+  margin: 0px;
 }
 
 .middle-title {
@@ -107,7 +109,7 @@ body {
   color: #1F2937;
   display: flex;
   justify-content: center;
-  margin:0;
+  margin: 0;
   padding: 26px;
 
 }
@@ -142,17 +144,70 @@ img[alt="artist"] {
 }
 
 .quote {
+  display: flex;
+  flex-direction: column;
   background-color: #e5e7eb;
+  font-style: italic;
+  font-size: 25px;
+  min-height: 350px;
+  justify-content: center;
+  align-items: center;
+}
+
+.pquote,
+.autor {
+  width: 850px;
+  color:#1F2937;
 }
 
 .pquote {
+  margin-bottom: 0;
+}
+
+.autor {
   display: flex;
-  margin: 0;
-  padding: 0;
+  justify-content: flex-end;
+  font-weight: bold;
+  margin-top: 0;
+}
+
+.sign {
+  min-height: 350px;
+  display: flex;
+  justify-content: center;
   align-items: center;
-  align-content: center;
-  font-style: italic;
-  font-size: 25px;
-  color:#1F2937;
-  height: 350px;
+}
+
+.buton {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #3882F6;
+  width: 1000px;
+  height: 150px;
+  border-radius: 10px;
+
+}
+
+.text1,
+.text2 {
+  color:white;
+  font-size: 20px;
+  margin: 0;
+}
+
+.rightbutton {
+  border-color: white;
+}
+
+.text1 {
+  font-weight: bold;
+}
+
+.footer {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 77px;
 }
